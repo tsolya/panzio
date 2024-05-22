@@ -1,0 +1,118 @@
+#torzs{
+    width:60vw;
+    margin: 0 auto;
+    background-color: rgb(233, 232, 232);
+    height: fit-content;
+}
+body{
+    background-color: rgb(255, 255, 240);
+    color:blue;
+}
+h1{
+    text-align: center;
+}
+#erkezes{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7.5vw;
+    margin-top: 1vh;
+}
+#tavozas{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7.5vw;
+    
+}
+#erkezesinp{
+    display: flex;
+    flex-direction: row; 
+    margin-left: 7.5vw;
+    margin-top: 1vh;
+    margin-right: 3.5vw;
+
+}
+input[type=number]{
+    width: 4.5vw;
+    margin-left: 3vw;
+    height: fit-content;
+   
+
+    
+}
+#szobak3{
+    margin-top: 2vh;
+}
+#szobak{
+    display: flex;
+    flex-direction: row;  
+    margin-left: 7.5vw;
+    margin-top: 2vh;
+}
+#ellatas{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7.5vw;
+    margin-top: 2vh;
+}
+#furdosz{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7.5vw;
+    margin-top: 2vh;
+}
+#kerdes{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7.5vw;
+    margin-top: 2vh;
+}
+#kerdes2{
+    margin-left: 0.5vw;
+    margin-right: 3.5vw;
+    
+}
+#furdosz2{
+    margin-left: 1.5vw;
+    margin-right: 3.5vw;
+}
+#szobak2{    
+    margin-left: 5.5vw;
+    margin-right: 3.5vw;
+      
+}
+#ellatas2{
+    margin-left: 8.5vw; 
+    margin-right: 3.5vw;
+}
+input[type=datetime]{
+    margin-left: 4vw; 
+    
+}
+#vendeletkora{
+    display: flex;
+    flex-direction: row;  
+    margin-left: 7.5vw;
+    margin-top: 2vh;
+}
+#vendegeletkora2{
+    display: flex;
+    flex-direction: row; 
+    
+}
+#vendszama{
+    margin-left: 7.5vw;
+}
+hr{
+    width:45vw;
+}
+#vendsz{
+    margin-left: 3.5vw;
+}
+#kerdes{
+    margin-left: 7.5vw;
+}
+textarea{
+    margin-right: 3.5vw;
+    width:25vw;
+    height: 20vh    ;
+}

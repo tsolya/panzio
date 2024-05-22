@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Panzió-szobafoglalás</h1>
+    <form>
+    <div id="torzs"> 
+        
+        <br>
+        <hr>
+        <div id="erkezes">
+            <label>Érkezés dátuma:</label>
+            <input type="datetime" name="erkezes" placeholder="éééé.hh.nn"> 
+            
+        </div>
+        <div id="erkezes"> 
+            <label>Távozás dátuma:</label>
+            <input type="datetime" name="tavozas" placeholder="éééé.hh.nn">  
+        </div>
+        <hr>
+        <div id="szobak">
+        <div id="szobak3">
+        <label>Szoba típusa:</label>
+        </div>
+        <div id="szobak2">
+            <input type="radio" id="egyagy" name="szobak" value="EGYAGY">
+            <label for="egyagy">Egyágyas - 9.000/éj</label><br>
+
+            <input type="radio" id="ketagy" name="szobak" value="KETAGY">
+            <label for="ketagy">Kétágyas - 15.000/éj</label><br>
+            
+            <input type="radio" id="ketagymegegy" name="szobak" value="KETAGYMEGEGY">
+            <label for="ketagymegegy">Kétágyas 1 pótággyal - 18.000/éj</label><br>
+
+            <input type="radio" id="ketagymegket" name="szobak" value="KETAGYMEGKET">
+            <label for="ketagymegket">Kétágyas 2 pótággyal - 21.000/éj</label>
+        </div>
+        </div>
+        <hr>
+        <div id="vendszama">
+            <label>Vendégek száma :</label>
+            <input type="number" min="1" max="4" id="vendsz"> 
+        </div>
+        
+        <div id="vendeletkora">
+            <label>Vendégek életkora :</label>
+            <div id="vendegeletkora2">
+            <input type="number" min="1" max="99"> 
+            <input type="number" min="1" max="99">
+            <input type="number" min="1" max="99"> 
+            <input type="number" min="1" max="99"> 
+        </div>
+        </div>
+        <hr>
+            <div id="ellatas">
+            <label>Ellátás: </label>
+            <div id="ellatas2">
+            <input type="radio" id="reggeli" name="ellatas" value="REGGELI">
+            <label for="reggeli">Reggeli - 900 Ft/nap/fő</label><br>
+
+            <input type="radio" id="felp" name="ellatas" value="FELP">
+            <label for="felp">Félpanzió - 2.900 Ft/nap/fő</label><br>
+            
+            <input type="radio" id="teljesp" name="ellatas" value="TELJESP">
+            <label for="teljesp">Teljes panzió - 4.900 Ft/nap/fő</label><br>
+
+            </div>  
+            </div>
+        <hr>
+        <div id="furdosz">
+            <label>Fürdő szolgáltatások: </label>
+            <div id="furdosz2">
+            <input type="checkbox" id="belt" name="furdosz" value="BELT">
+            <label for="belt">Beltéri medencék - 800 Ft/nap/fő</label><br>
+
+            <input type="checkbox" id="kult" name="furdosz" value="KULT">
+            <label for="kult">Kültéri medencék - 800 Ft/nap/fő</label><br>
+            
+            <input type="checkbox" id="szau" name="furdosz" value="SZAU">
+            <label for="szau">Szauna belépő - 800 Ft/nap/fő</label><br>
+
+            <input type="checkbox" id="teljesb" name="furdosz" value="TELJESB">
+            <label for="teljesb">Teljes belépő - 2.000 Ft/nap/fő</label>
+            </div>
+            </div>
+
+        <hr>
+        <div id="kerdes">
+            <label>Egyébb kérdés, kívánság:  </label>
+            <div id="kerdes2">
+                <textarea ></textarea>
+            </div>
+            
+        </div>
+        <hr><br>
+    </div>
+</form>
+    <button id="gomb">Költségkalkuláció</button>
+    
+</body>
+</html>
