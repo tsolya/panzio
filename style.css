@@ -1,5 +1,5 @@
 #torzs{
-    width:60vw;
+    width:65vw;
     margin: 0 auto;
     background-color: rgb(233, 232, 232);
     height: fit-content;
@@ -16,6 +16,8 @@ h1{
     flex-direction: row;
     margin-left: 7.5vw;
     margin-top: 1vh;
+    margin-right: 2vw;
+   
 }
 #tavozas{
     display: flex;
@@ -23,18 +25,15 @@ h1{
     margin-left: 7.5vw;
     
 }
-#erkezesinp{
-    display: flex;
-    flex-direction: row; 
-    margin-left: 7.5vw;
-    margin-top: 1vh;
-    margin-right: 3.5vw;
 
-}
 input[type=number]{
-    width: 4.5vw;
-    margin-left: 3vw;
+    width: 3.5vw;
+    min-width: 23px;
     height: fit-content;
+    margin-left: 3.32vw;
+   
+    height: fit-content;
+   
    
 
     
@@ -72,22 +71,27 @@ input[type=number]{
     
 }
 #furdosz2{
-    margin-left: 1.5vw;
+    margin-left: 2.3vw;
     margin-right: 3.5vw;
+    
 }
 #szobak2{    
-    margin-left: 5.5vw;
-    margin-right: 3.5vw;
+    margin-left: 5vw;
+    margin-right: 0.5vw;
       
 }
 #ellatas2{
-    margin-left: 8.5vw; 
+    margin-left: 7.5vw; 
     margin-right: 3.5vw;
 }
 input[type=datetime]{
-    margin-left: 4vw; 
+    margin-left: 3.8vw; 
+    height: fit-content;
+    width: 13vw;
+   
     
 }
+
 #vendeletkora{
     display: flex;
     flex-direction: row;  
@@ -97,6 +101,7 @@ input[type=datetime]{
 #vendegeletkora2{
     display: flex;
     flex-direction: row; 
+    margin-right: 2vw;
     
 }
 #vendszama{
@@ -109,10 +114,23 @@ hr{
     margin-left: 3.5vw;
 }
 #kerdes{
-    margin-left: 7.5vw;
+    margin-left: 7.8vw;
 }
 textarea{
-    margin-right: 3.5vw;
+    margin-right: 2.5vw;
     width:25vw;
-    height: 20vh    ;
+    height: 20vh;
 }
+#gomb{
+    width:150px;
+    height: 30px;
+    
+       
+}
+#ezegygomb{
+    margin: 0 auto;
+    margin-top: 2vh;
+    
+    
+}
+
