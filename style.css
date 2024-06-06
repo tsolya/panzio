@@ -32,11 +32,7 @@ input[type=number]{
     height: fit-content;
     margin-left: 3.32vw;
    
-    height: fit-content;
-   
-   
-
-    
+    height: fit-content; 
 }
 #szobak3{
     margin-top: 2vh;
@@ -121,15 +117,14 @@ textarea{
     width:25vw;
     height: 20vh;
 }
-#gomb{
-    width:150px;
-    height: 30px;
-    
-       
-}
-#ezegygomb{
+
+.ezegygomb{
+    width:20%;
+    display: block;
     margin: 0 auto;
+    text-align: center;
     margin-top: 2vh;
+    
     
     
 }
